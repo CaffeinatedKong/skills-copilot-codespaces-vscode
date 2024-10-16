@@ -32,7 +32,7 @@ var server = http.createServer(function (req, res) {
             res.writeHead(404, {
                 'Content-Type': contentType
             });
-            res.end('404 Not Found\n');
+            res.end('404 Not dasd\n');
         }
     });
 });
